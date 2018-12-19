@@ -1,0 +1,162 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Booking.WebApi</name>
+    </assembly>
+    <members>
+        <member name="T:Booking.WebApi.Dtos.BookingDetailsDto">
+            <summary>
+            BookingDetailsDto
+            </summary>
+        </member>
+        <member name="P:Booking.WebApi.Dtos.BookingDetailsDto.BookingDetailId">
+            <summary>
+            booking Detail Id
+            </summary>
+        </member>
+        <member name="P:Booking.WebApi.Dtos.BookingDetailsDto.FlightScheduleId">
+            <summary>
+            flight Schedule Id
+            </summary>
+        </member>
+        <member name="P:Booking.WebApi.Dtos.BookingDetailsDto.NoOfPassenger">
+            <summary>
+            no Of Passenger
+            </summary>
+        </member>
+        <member name="P:Booking.WebApi.Dtos.BookingDetailsDto.Remarks">
+            <summary>
+            Remarks
+            </summary>
+        </member>
+        <member name="P:Booking.WebApi.Dtos.BookingDetailsDto.BookerName">
+            <summary>
+            Booker Name
+            </summary>
+        </member>
+        <member name="T:Booking.WebApi.Dtos.FlightScheduleDto">
+            <summary>
+            FlightScheduleDto
+            </summary>
+        </member>
+        <member name="P:Booking.WebApi.Dtos.FlightScheduleDto.FlightScheduleId">
+            <summary>
+            Flight Schedule Id
+            </summary>
+        </member>
+        <member name="P:Booking.WebApi.Dtos.FlightScheduleDto.FlightId">
+            <summary>
+            Flight Id
+            </summary>
+        </member>
+        <member name="P:Booking.WebApi.Dtos.FlightScheduleDto.AirportId">
+            <summary>
+            Airport Id
+            </summary>
+        </member>
+        <member name="P:Booking.WebApi.Dtos.FlightScheduleDto.DepatureDateTime">
+            <summary>
+            Depature Date Time
+            </summary>
+        </member>
+        <member name="P:Booking.WebApi.Dtos.FlightScheduleDto.FromDestination">
+            <summary>
+            From Destination
+            </summary>
+        </member>
+        <member name="P:Booking.WebApi.Dtos.FlightScheduleDto.ToDestination">
+            <summary>
+            To Destination
+            </summary>
+        </member>
+        <member name="T:Booking.WebApi.Dtos.ItemResponseDto">
+            <summary>
+            ItemResponseDto
+            </summary>
+        </member>
+        <member name="P:Booking.WebApi.Dtos.ItemResponseDto.FlightName">
+            <summary>
+            FlightName
+            </summary>
+        </member>
+        <member name="P:Booking.WebApi.Dtos.ItemResponseDto.AvailableSeat">
+            <summary>
+            AvailableSeat
+            </summary>
+        </member>
+        <member name="P:Booking.WebApi.Dtos.ItemResponseDto.FlightScheduleId">
+            <summary>
+            FlightScheduleId
+            </summary>
+        </member>
+        <member name="P:Booking.WebApi.Dtos.ItemResponseDto.BookingAvailable">
+            <summary>
+            BookingAvailable
+            </summary>
+        </member>
+        <member name="T:Booking.WebApi.Dtos.PassengerDto">
+            PassengerDto
+            /summary>
+        </member>
+        <member name="P:Booking.WebApi.Dtos.PassengerDto.TotalPassengers">
+            <summary>
+            Total Passengers
+            </summary>
+        </member>
+        <member name="P:Booking.WebApi.Dtos.PassengerDto.FlightScheduleId">
+            <summary>
+            Flight ScheduleId
+            </summary>
+        </member>
+        <member name="T:Booking.WebApi.Dtos.ResponseDto">
+            <summary>
+            ResponseDto
+            </summary>
+        </member>
+        <member name="P:Booking.WebApi.Dtos.ResponseDto.ItemResponses">
+            <summary>
+            ItemResponses
+            </summary>
+        </member>
+        <member name="P:Booking.WebApi.Dtos.ResponseDto.Status">
+            <summary>
+            Error
+            </summary>
+        </member>
+        <member name="P:Booking.WebApi.Dtos.ResponseDto.Error">
+            <summary>
+            Status
+            </summary>
+        </member>
+        <member name="T:Booking.WebApi.Dtos.SearchInputDto">
+            <summary>
+            SearchInputDto
+            </summary>
+        </member>
+        <member name="P:Booking.WebApi.Dtos.SearchInputDto.FromDestination">
+            <summary>
+            FromDesitination
+            </summary>
+        </member>
+        <member name="P:Booking.WebApi.Dtos.SearchInputDto.ToDestination">
+            <summary>
+            ToDesitination
+            </summary>
+        </member>
+        <member name="P:Booking.WebApi.Dtos.SearchInputDto.DepatureDateTime">
+            <summary>
+            depatureDateTime
+            </summary>
+        </member>
+        <member name="P:Booking.WebApi.Dtos.SearchInputDto.ReturnDepatureDateTime">
+            <summary>
+            depatureDateTime
+            </summary>
+        </member>
+        <member name="P:Booking.WebApi.Dtos.SearchInputDto.NoOfPassenger">
+            <summary>
+            NoOfPassenger
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,58 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div id="booking" class="section">
+
+  <div class="section-center">
+      <div class="container">
+        <div class="row">
+          <div class="booking-form">
+            <form [formGroup]="bookingForm" (ngSubmit)="onSubmit()">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <span class="form-label">Flying from</span>
+                    <input class="form-control" type="text" placeholder="City or airport"formControlName="fromDestination" required>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <span class="form-label">Flyning to</span>
+                    <input class="form-control" type="text" placeholder="City or airport"formControlName="toDestination" required>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="form-group">
+                    <span class="form-label">Departing</span>
+                    <input class="form-control" type="date"formControlName="depatureDateTime" required>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="form-group">
+                    <span class="form-label">Returning</span>
+                    <input class="form-control" type="date"formControlName="returnDepatureDateTime" required>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="form-group">
+                    <span class="form-label">Adults</span>
+                    <input class="form-control" type="text" placeholder="2"formControlName="numberOfPassenger" required>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+
+                <div class="col-md-3">
+                  <div class="form-btn">
+                    <button class="submit-btn" type="submit" [disabled]="!bookingForm.valid">Show flights</button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+
